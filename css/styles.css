@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  background: linear-gradient(-45deg, #000000, #131313, #131313, #000000);
+  background-size: 200% 200%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: silver;
+  text-shadow:0 0 30 silver;
+  -moz-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+
+/************************** INDEX.HTML**************************/
+
+.nav-bar {
+  font-family: 'Kaushan Script', cursive;
+  padding: 10px 0 50px 0;
+  text-align: center;
+  font-size: 2em;
+}
+
+.parent {}
+
+.main-top {
+  position: relative;
+  text-align: center;
+}
+
+.main-middle {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-bottom {
+  position: relative;
+  text-align: center;
+}
+
+.bottom-bar {
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+.about-me {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  display: inline-block;
+  border: solid;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+}
+
+.skills {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  display: inline-block;
+  margin: 0 20px;
+  border: solid;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+}
+
+.github {
+  font-family: 'Merriweather', serif;
+  font-size: 25px;
+  display: inline-block;
+  border: solid;
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+}
+
+.instagram{
+      font-family: 'Merriweather', serif;
+  margin: 0 10px;
+}
+
+.linked-in {
+      font-family: 'Merriweather', serif;
+  margin: 0 10px;
+}
+
+/************************** ABOUT-ME.HTML**************************/
+
+hr {
+  border-style: none;
+}
+
+.middle {
+  position: relative;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.me {
+  margin: 0 auto;
+  float: left;
+  border-right: 1px solid white;
+  padding-right: 30px;
+}
+ .omeni{
+   color: white;
+   line-height: 1.5;
+   margin: 0 100px 0 500px;
+}
+
+.bottom-bar-2 {
+  padding: 50px 0 0 0;
+  text-align: center;
+}
+
+/************************** SKILLS.HTML**************************/
+h1 {
+  font-family: 'Merriweather', serif;
+  color: white;
+}
+
+h3 {
+  font-family: 'Lora', serif;
+  color: silver;
+}
+
+.skills-middle {
+  margin: 5px 5% 5% 5%;
+}
